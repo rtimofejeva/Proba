@@ -1,0 +1,5 @@
+def countZeros(v):
+ return v.count("0")
+v = input("Ievadit skaitli: ")
+rez = countZeros(v)
+print(rez)
